@@ -1,0 +1,18 @@
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(mountain.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+}
+.rain{
+    height: 100vh;
+    background-image: url(rainimg.png);
+    animation: rain 2s linear infinite;
+}
+@keyframes rain{
+    from{
+        background-position: 0% 0%;
+    }
+    to{
+        background-position: 10% 100%;
+    }
+}
